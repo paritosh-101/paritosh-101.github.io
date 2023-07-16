@@ -1,4 +1,4 @@
-layout: default
+layout: pages
 title: "Research Papers"
 permalink: /papers
 
