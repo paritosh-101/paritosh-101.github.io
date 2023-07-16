@@ -38,8 +38,8 @@ plugins:
 
 # Sort page links
 header_pages:
-  - papers.md
-  - about.md
+  - papers.markdown
+  - about.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
