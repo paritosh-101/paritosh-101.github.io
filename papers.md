@@ -1,6 +1,6 @@
-layout: pages
+layout: page
 title: "Research Papers"
-permalink: /papers
+permalink: /papers/
 
 Title: [Data-Centric Approach to SAR-Optical Image Translation] (https://link.springer.com/chapter/10.1007/978-3-031-31407-0_19)
 Co-Author: Muneendra Ojha
