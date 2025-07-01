@@ -1,0 +1,46 @@
+:root {
+  /* Backgrounds */
+  --ctp-base:   #1e1e2e; /* Mocha Base */
+  --ctp-mantle: #181825; /* Mocha Mantle */
+  --ctp-crust:  #11111b; /* Mocha Crust */
+  --ctp-surface-0: #313244; /* Mocha Surface0 */
+  --ctp-surface-1: #45475a; /* Mocha Surface1 */
+  --ctp-surface-2: #585b70; /* Mocha Surface2 */
+
+  /* Text */
+  --ctp-text:     #cdd6f4; /* Mocha Text */
+  --ctp-subtext1: #bac2de; /* Mocha Subtext1 */
+  --ctp-subtext0: #a6adc8; /* Mocha Subtext0 */
+  --ctp-overlay2: #9399b2; /* Mocha Overlay2 */
+  --ctp-overlay1: #7f849c; /* Mocha Overlay1 */
+  --ctp-overlay0: #6c7086; /* Mocha Overlay0 */
+
+  /* Semantic colors */
+  --ctp-blue:    #89b4fa;
+  --ctp-green:   #a6e3a1;
+  --ctp-red:     #f38ba8;
+  --ctp-yellow:  #f9e2af;
+  --ctp-teal:    #94e2d5;
+  --ctp-sky:     #89dceb;
+  --ctp-sapphire:#74c7ec;
+  --ctp-lavender:#b4befe;
+  --ctp-peach:   #fab387;
+  --ctp-pink:    #f5c2e7;
+  --ctp-mauve:   #cba6f7;
+  --ctp-rosewater:#f5e0dc;
+  --ctp-flamingo:#f2cdcd;
+}
+
+body {
+  background: var(--ctp-base);
+  color: var(--ctp-text);
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+a { color: var(--ctp-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header, footer { background: var(--ctp-mantle); padding: 1rem; }
+nav a { margin-right: 1rem; color: var(--ctp-text); }
